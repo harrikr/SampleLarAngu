@@ -59,7 +59,7 @@ app.controller('ItemsController', function(dataFactory, $scope, $http) {
         });
     }
     $scope.remove = function(item, index) {
-        var result = confirm("Are you sure delete this item?");
+        var result = confirm("Apakan kamu akan menghapus data ini ?");
         if (result) {
             dataFactory.httpRequest('items/' + item.id, 'DELETE').then(function(data) {
                 $scope.data.splice(index, 1);
