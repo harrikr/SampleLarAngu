@@ -39,8 +39,8 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                  <li><a href="#/">Home</a></li>
-                  <li><a href="#/items">Daftar</a></li>
+                  <li><a href="#/">Beranda</a></li>
+                  <li><a href="#/items">Daftar Mahasiswa</a></li>
               </ul>
           </div>
       </div>
