@@ -21,6 +21,7 @@
             <th>Nim</th>
             <th>Nama</th>
             <th>Judul</th>
+            <th>E-Mail</th>
             <th>Abstraksi</th>
             <th width="220px">Aksi</th>
         </tr>
@@ -31,6 +32,7 @@
             <td>{{ value.nim }}</td>
             <td>{{ value.nama }}</td>
             <td>{{ value.judul }}</td>
+            <td>{{ value.email }}</td>
             <td>{{ value.abstraksi }}</td>
             <td>
                 <button data-toggle="modal" ng-click="edit(value.id)" data-target="#edit-data" class="btn btn-primary">Edit</button>
@@ -68,6 +70,12 @@
                                 <strong>Judul : </strong>
                                 <div class="form-group">
                                     <input ng-model="form.judul" type="text" placeholder="Name" name="title" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <strong>E-Mail : </strong>
+                                <div class="form-group">
+                                    <input ng-model="form.email" type="text" placeholder="Name" name="title" class="form-control" required />
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
@@ -113,6 +121,11 @@
                             <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="form-group">
                                     <input ng-model="form.judul" type="text" placeholder="Name" name="title" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input ng-model="form.email" type="text" placeholder="Name" name="title" class="form-control" required />
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
