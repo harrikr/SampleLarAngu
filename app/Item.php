@@ -6,7 +6,7 @@ use DB;
 
 class Item extends Model
 {
-   public $fillable = ['nim','nama','judul','abstraksi'];
+   public $fillable = ['nim','nama','judul','email','abstraksi'];
 
 
 
