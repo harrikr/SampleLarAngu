@@ -10,7 +10,7 @@
                     <span class="input-group-addon">Cari</span>
                 </div>
             </div>
-            <button class="btn btn-success" data-toggle="modal" data-target="#create-user">Tambah Baru</button>
+            <button class="btn btn-success" data-toggle="modal" data-target="#create-user">Tambah Data</button>
         </div>
     </div>
 </div>
@@ -36,7 +36,7 @@
             <td>{{ value.abstraksi }}</td>
             <td>
                 <button data-toggle="modal" ng-click="edit(value.id)" data-target="#edit-data" class="btn btn-primary">Edit</button>
-                <button ng-click="remove(value,$index)" class="btn btn-danger">Delete</button>
+                <button ng-click="remove(value,$index)" class="btn btn-danger">Hapus</button>
             </td>
         </tr>
     </tbody>
@@ -49,7 +49,7 @@
             <form method="POST" name="addItem" role="form" ng-submit="saveAdd()">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Buat Baru</h4>
+                    <h4 class="modal-title" id="myModalLabel">Tambah Data</h4>
                 </div>
                 <div class="modal-body">
                     <div class="container">
@@ -86,8 +86,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="submit" ng-disabled="addItem.$invalid" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Keluar</button>
+                        <button type="submit" ng-disabled="addItem.$invalid" class="btn btn-primary">Simpan</button>
                     </div>
                 </div>
             </form>
@@ -135,8 +135,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="submit" ng-disabled="editItem.$invalid" class="btn btn-primary create-crud">Submit</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Keluar</button>
+                        <button type="submit" ng-disabled="editItem.$invalid" class="btn btn-primary create-crud">Simpan0</button>
                     </div>
                 </div>
             </form>
