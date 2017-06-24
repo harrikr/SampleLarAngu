@@ -12,6 +12,7 @@ class CreateItemsMahasiswa extends Migration
            $table->string('nim');
            $table->string('nama');
            $table->string('judul');
+           $table->string('email');
            $table->text('abstraksi');
            $table->timestamps();
        });
