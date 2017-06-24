@@ -39,10 +39,16 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
+<<<<<<< HEAD
+                  <li><a href="/">Beranda</a></li>
+                  <li><a href="#/items">Daftar Mahasiswa</a></li>
+                  <li><a >Login</a></li>
+=======
                   <li><a href="#/">Beranda</a></li>
                   <li><a href="#/items">Daftar Mahasiswa</a></li>
                   <li><a href="#">Login</a></li>
 
+>>>>>>> origin/master
               </ul>
           </div>
       </div>
